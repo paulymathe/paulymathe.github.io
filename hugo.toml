@@ -1,0 +1,56 @@
+baseURL = 'https://YOUR-USERNAME.github.io/'
+languageCode = 'en-us'
+title = "Paul Bastin's Homepage"
+enableRobotsTXT = true
+
+[params]
+  author = 'Paul Bastin'
+  description = 'Personal academic website of Paul Bastin'
+  role = 'PhD student in Probability and Statistics'
+  affiliations = [
+  "@SAMOVAR, @LTCI",
+  "Institut Polytechnique de Paris"
+]
+  pronouns = ''
+  email = 'paul.bastin@hotmail.fr'
+  location = 'Palaiseau, France'
+  avatar = '/images/photo.jpg'
+
+  # Optional links — leave empty to hide them.
+  github = ''
+  scholar = ''
+  hal = ''
+  arxiv = ''
+  orcid = 'https://orcid.org/0009-0004-1858-6684'
+  linkedin = 'https://www.linkedin.com/in/paul-bastin/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Paul Bastin's Homepage"
+    pageRef = "/"
+    weight = 10
+  [[menu.main]]
+    name = 'Publications'
+    pageRef = '/publications'
+    weight = 20
+  [[menu.main]]
+    name = 'Talks'
+    pageRef = '/talks'
+    weight = 30
+  [[menu.main]]
+    name = 'Teaching'
+    pageRef = '/teaching'
+    weight = 40
+  [[menu.main]]
+    name = 'CV'
+    pageRef = '/cv'
+    weight = 50
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
