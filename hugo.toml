@@ -1,6 +1,6 @@
 baseURL = 'https://YOUR-USERNAME.github.io/'
 languageCode = 'en-us'
-title = "Paul Bastin's Homepage"
+title = "Paul Bastin"
 enableRobotsTXT = true
 
 [params]
@@ -14,7 +14,7 @@ enableRobotsTXT = true
   pronouns = ''
   email = 'paul.bastin@hotmail.fr'
   location = 'Palaiseau, France'
-  avatar = '/images/photo.jpg'
+  avatar = 'images/photo.jpg'
 
   # Optional links — leave empty to hide them.
   github = ''
@@ -31,7 +31,7 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    name = "Paul Bastin's Homepage"
+    name = "Paul Bastin"
     pageRef = "/"
     weight = 10
   [[menu.main]]
